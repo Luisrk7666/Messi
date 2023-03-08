@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: 'Phudu', cursive;
+margin:0px;
+}
+
+#messi {
+    width: 90%;
+    padding: 5%;
+    border-radius: 30px;
+}
+
+.Linea {
+    width: 70%;
+    height: 7px;
+    background-color: darkred;
+    margin:15px;
+}
+
+#Bienvenida {
+    width:100%;
+    height:100%;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(30, 30, 198, 1) 20%, rgba(62, 190, 205, 1) 82%, rgba(0, 212, 255, 1) 100%);
+    margin: 0px;
+z-index:9;    
+}
+h1 {
+    font-family: 'Anton', sans-serif
+
+
+}
+.menu{
+    width:100%;
+    margin-top: 0px;
+list-style:none;
+position:fixed ;
+top:0px ;
+z-index: 10;
+background-color:red ;
+}
+.links{
+    display:inline;
+    padding-left:9px;
+    padding-right: 9px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+}
+.links:hover{
+    background-color:yellow;
+}
+#perfil{
+    border-radius: 50%; margin:30px;
+}
